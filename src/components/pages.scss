@@ -1,0 +1,269 @@
+@import 'variables';
+
+// PROJECTS CSS
+
+.project {
+	display: grid;
+	grid-template: 1fr minmax(1rem, auto) auto / 100%;
+	min-height: 100vh;
+	order: 2;
+
+		@media (min-width: 50rem) {
+			grid-template: 1fr auto/repeat(12, minmax(auto, 1fr));
+		}
+
+    &__description {
+        display: grid;
+        order: 3;
+        grid-template-rows:repeat(2, minmax(auto, min-content));
+        grid-template-columns: minmax(min-content, max-content);
+		padding: 5rem;
+		padding-bottom: 0;
+		background-color: #ffffff;
+		//padding-bottom: 6rem;
+        
+        @media (min-width: 50rem) {
+			order: 3;
+			grid-column: 1/8;
+			padding-bottom: 6rem;
+		}
+
+		h1 {
+			font-size: 3.5rem;
+			font-weight: 100;
+			color: $color-primary;
+			//margin: 0 auto;
+			//text-align: center;
+			//margin-bottom: 2rem;
+			//font-weight: bold;
+			letter-spacing: 0.1rem;
+		}
+
+		p {
+			//text-align: center;
+			font-size: 1.8rem;
+		}
+	}
+	
+	&__logo {
+        display: grid;
+        order: 4;
+        grid-template-rows:repeat(2, minmax(auto, min-content));
+        grid-template-columns: minmax(min-content, max-content);
+		padding: 5rem;
+		padding-bottom: 0;
+		background-color: #ffffff;
+		padding-bottom: 6rem;
+		justify-content: center;
+		justify-items: center;
+		align-content: center;
+		align-items: center;
+		width: 100%;
+        
+        @media (min-width: 50rem) {
+			order: 4;
+			grid-column: 8/-1;
+			padding: 5rem;
+		}
+
+		svg {
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+	
+	&__content {
+        display: grid;
+        grid-template-rows:repeat(auto, minmax(auto, min-content));
+        grid-template-columns: 1fr;
+		order: 5;
+		padding: 2rem;
+		padding-top: 10rem;
+        padding-bottom: 10rem;
+        background-color: #f1f2ff;
+		grid-gap: 10rem;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		justify-items: center;
+
+		@media (min-width: 50rem) {
+			order: 5;
+			grid-column: 1/-1;
+        }
+        
+        figure {
+			margin: 0 auto;
+			
+			img {
+				max-width: 100%;
+
+				&.img-shadow {
+					box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+				}
+			}
+
+			video {
+				max-width: 100%;
+				box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+			}
+		}
+
+		&--button {
+			background-color: $color-primary;
+			color: #ffffff;
+			padding: 1.5rem 3rem;
+			text-decoration: none;
+			text-transform: uppercase;
+			border-radius: 100rem;
+			font-size: 2rem;
+
+			&:hover {
+				background-color: $color-secondary;
+			}
+		}
+	}
+    
+    &__footer {
+        display: grid;
+        grid-template: 30vh / 1fr;
+        order: 5;
+		grid-column: 1 / -1;
+		
+		// GALLERY
+	
+		&--gallery {
+			
+			// Flexbox Default/Fallback - does not produce 100% matching result 
+				/* display: -webkit-flex; */
+			/* display: flex; */
+			/* -webkit-flex-wrap: wrap; */
+			/* flex-wrap: wrap; */
+			display: grid;
+			/* grid-gap: 1rem; */
+			/* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+			/* grid-auto-rows: 1fr; */
+			grid-template: 1fr / repeat(2, 1fr);
+			// play with values here:
+			// grid-auto-rows: minmax(0, 1fr);
+			// grid-auto-rows: minmax(0, 1fr);
+			//	grid-auto-flow: dense;
+		
+			@media (min-width: 50rem) {
+				//grid-gap: 2rem;
+			}
+				a {
+					cursor: pointer;
+					text-decoration: none;
+
+				.parent {
+					align-items: stretch;
+					background-position: center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+					display: flex;
+					flex: 1 0 100%;
+					flex-direction: column;
+					justify-content: flex-end;
+					line-height: 3;
+					overflow: hidden;
+					position: relative;
+					//border-radius: 5px;
+					//border: 1px solid #e6e6e6;
+					cursor: pointer;
+					//display: block;
+					height: 100%;
+					width: 100%;
+					transition: all .4s;
+				}
+				.child {
+					height: 100%;
+					width: 100%;
+					background-size: cover;
+					background-repeat: no-repeat;
+					display: grid;
+					align-content: center;
+					background-position: center;
+					transition: all .4s;
+
+					&::before {
+						content: "";
+						display: none;
+						height: 100%;
+						width: 100%;
+						position: absolute;
+						top: 0;
+						left: 0;
+						background-color: rgba(52,73,94,0.75);
+					}
+				}
+				
+
+				.bg-revive {background-image: url(../images/thumbnails/revive.png);}
+				.bg-stork {background-image: url(../images/thumbnails/stork.png);}
+				.bg-swpgh {background-image: url(../images/thumbnails/sw.png);}
+				.bg-calc {background-image: url(../images/thumbnails/calc.png);}
+				.bg-2dogs {background-image: url(../images/thumbnails/2dogs.png);}
+				.bg-discord {background-image: url(../images/thumbnails/discord.png);}
+				.bg-top {background-image: url(../images/thumbnails/top.jpg);}
+				.bg-treatspace {background-image: url(../images/thumbnails/treatspace.png);}
+				.bg-bollinger {background-image: url(../images/thumbnails/bollinger.png);}
+				.bg-wlm {background-image: url(../images/thumbnails/wlm.png);}
+	
+	
+				.bg-ruscitto {background-image: url(../images/thumbnails/ruscitto.png);}
+				.bg-zeiss {background-image: url(../images/thumbnails/zeiss.jpg);}
+				.bg-qws {background-image: url(../images/thumbnails/qws.jpg);}
+				.bg-bluehawk {background-image: url(../images/thumbnails/bluehawk.jpg);}
+				.bg-ysu {background-image: url(../images/thumbnails/ysu.png);}
+				.bg-psych {background-image: url(../images/thumbnails/psych.jpg);}
+				.bg-peppers {background-image: url(../images/thumbnails/peppers.jpg);}
+				.bg-wwf {background-image: url(../images/thumbnails/wwf.jpg);}
+				.bg-nectar {background-image: url(../images/thumbnails/nectar.jpg);}
+				.bg-widernet {background-image: url(../images/thumbnails/widernet.jpg);}
+				.bg-chp {background-image: url(../images/thumbnails/chp.jpg);}
+				.bg-davinci {background-image: url(../images/thumbnails/davinci.jpg);}
+				.bg-juvenile {background-image: url(../images/thumbnails/juvenile.png);}
+	
+				
+				h2 {
+					display: none;
+					font-size: 3.5rem;
+					font-weight: 100;
+					color: #ffffff;
+					text-align: center;
+					position: relative;
+					cursor: pointer;
+					text-decoration: none;
+					transition: all .4s;
+
+					span {
+						font-size: 4rem;
+					}
+				}
+
+				.parent:hover .child, .parent:focus .child {
+			
+					transform: scale(1.2);
+					transition: all .4s;
+				}
+
+				.parent:hover .child::before, .parent:focus .child::before {
+					display: block;
+					transition: all .4s;
+				}
+				
+				.parent:hover h2, .parent:focus h2 {
+					display: block;
+					text-decoration: none;
+					transition: all .4s;
+				}			
+			}
+		}
+	}
+}
+		
+	
+	
+
+
