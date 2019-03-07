@@ -28,7 +28,7 @@ const ZeissPage = () => (
         <h1>ZEISS</h1>
 
         <p>
-          Praesent ac sem eget est egestas volutpat. Curabitur vestibulum aliquam leo. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Etiam feugiat lorem non metus. Vivamus in erat ut urna cursus vestibulum.
+        The purpose of this project was to create a new packaging for an existing product. It was intended to make it more visually dynamic with a vibrant see through window that displays the content inside the packaging.
         </p>
 
       </section>
