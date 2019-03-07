@@ -69,13 +69,13 @@
 		}
 		
 		&__important-text {
-			font-weight: bold;
+			font-weight: 500;
 		}
 	
 		&__h1 {
 			font-size: 1.6rem;
 			font-family: $font-primary;
-			font-weight: bold;
+			font-weight: 500;
 			line-height: 1.6;
 			display: inline;
 		}
@@ -83,6 +83,7 @@
 		h3 {
 			justify-self: center;
 			text-align: center;
+			font-weight: 300;
 		}
 	
 		p {
@@ -253,7 +254,7 @@
 			h2 {
 				display: none;
 				font-size: 3.5rem;
-				font-weight: 300;
+				font-weight: 400;
 				color: #ffffff;
 				text-align: center;
 				position: relative;
