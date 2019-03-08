@@ -89,10 +89,10 @@ p {
 
 .wrapper {
 	display: grid;
-	grid-template: auto 1fr minmax(1rem, auto) / 100%;
+	grid-template: auto 1fr / 100%;
 	min-height: 100vh;
 	@media (min-width: 50rem) {
-		grid-template: 7rem / minmax(auto, 1fr);
+		grid-template: 7rem 1fr / minmax(auto, 1fr);
 	}
 }
 
