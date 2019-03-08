@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
 
 		<div className="header__inner-container">
 			<div className="header__logo">
-				<AniLink paintDrip hex="#eb8f00" to="/" className="header__logo--link">
+				<AniLink paintDrip hex="#eb8f00" to="/" className="header__logo--link" title="Luis Cestou">
 					<LogoIcon />
 				</AniLink>
 			</div>
