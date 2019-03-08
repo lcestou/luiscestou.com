@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Luis Cestou – Graphic + Interactive Designer`,
-    description: `Graphic + Interactive Designer`,
+    description: `Graphic + Interactive Designer from Pittsburgh, PA.`,
     author: `Luis Cestou`,
   },
   plugins: [
