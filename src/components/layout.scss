@@ -73,14 +73,6 @@ h3 {
   color: $color-primary;
 }
 
-h4 {
-  @extend %heading;
-  font-size: 1.9rem;
-
-  &--light { color: $color-grey-light-1; }
-  &--dark { color: $color-grey-dark-1; }
-}
-
 p {
 	font-size: 1.6rem;
 }
@@ -136,10 +128,6 @@ p {
 	
 		svg {
 			height: 4rem;
-	
-			path {
-				fill: #ffffff;
-			}
 		}
 	}
 

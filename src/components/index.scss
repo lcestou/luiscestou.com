@@ -117,10 +117,6 @@
 					width: 3rem;
 					transition: all .4s;
 	
-					path {
-						fill: $color-secondary;
-					}
-	
 					&:hover, &:focus {
 						transform: scale(1.2);
 					}
@@ -135,10 +131,6 @@
 				svg {
 					width: 3rem;
 					transition: all .4s;
-	
-					path {
-						fill: $color-secondary;
-					}
 	
 					&:hover, &:focus {
 						transform: scale(1.2);
