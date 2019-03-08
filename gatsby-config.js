@@ -2,12 +2,21 @@ module.exports = {
   siteMetadata: {
     title: `Luis Cestou – Graphic + Interactive Designer`,
     description: `Graphic + Interactive Designer from Pittsburgh, PA.`,
+    siteUrl: `https://luiscestou.com/`,
     author: `Luis Cestou`,
+    socialLinks: {
+      github: { url: 'https://github.com/lcestou/', name: 'GitHub' },
+      linkedin: {
+          url: 'https://www.linkedin.com/in/luis-cestou/',
+          name: 'LinkedIn',
+      },
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-transition-link`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
