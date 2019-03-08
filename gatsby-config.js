@@ -24,7 +24,7 @@ module.exports = {
         short_name: `Luis Cestou`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#eb8f00`,
+        theme_color: `#f1f2ff`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },

@@ -11,6 +11,14 @@ Hi! This is the source code for my [portfolio website](https://luiscestou.com), 
 
 ## TODO
 
+- [X] progressive web app
 - [ ] improve accessibility
-- [ ] progressive web app
 - [ ] contact form
+
+## Contributing
+
+If you find any bug or want to purpose a feature, feel free to [open an issue](issues/new) or [create a pull request](pulls).
+
+## License
+
+[MIT](./LICENSE)
