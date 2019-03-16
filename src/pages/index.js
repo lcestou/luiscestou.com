@@ -27,7 +27,7 @@ const IndexPage = () => (
 					<Img  />
 
 						<h3><span>Hello!</span></h3>
-						<p>My name is <span className="aside__important-text">Luis Cestou</span> and I am a <h1 className="aside__h1">Graphic and Interactive Designer</h1> from Pittsburgh, PA.</p>
+						<p>My name is <span className="aside__important-text">Luis Cestou</span> and I am a <h1 className="aside__h1">Visual and Interaction Designer</h1> from Pittsburgh, PA.</p>
 						<p>The goals of my designs are to achieve an aesthetically pleasing and eye catching end product that meets or exceeds my client needs.</p>
 						<p>Feel free to <a className="aside__contact-link" href="mailto:contact@luiscestou.com">contact me</a> for any project that you might have in mind.</p>
 						

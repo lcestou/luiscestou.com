@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Luis Cestou – Graphic + Interactive Designer`,
-    description: `Graphic + Interactive Designer from Pittsburgh, PA.`,
+    title: `Luis Cestou – Visual + Interaction Designer`,
+    description: `Visual + Interaction Designer from Pittsburgh, PA.`,
     siteUrl: `https://luiscestou.com/`,
     author: `Luis Cestou`,
     socialLinks: {
