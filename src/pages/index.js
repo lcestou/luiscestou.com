@@ -29,11 +29,11 @@ const IndexPage = () => (
 						<h3><span>Hello!</span></h3>
 						<p>My name is <span className="aside__important-text">Luis Cestou</span> and I am a <h1 className="aside__h1">Visual and Interaction Designer</h1> from Pittsburgh, PA.</p>
 						<p>The goals of my designs are to achieve an aesthetically pleasing and eye catching end product that meets or exceeds my client needs.</p>
-						<p>Feel free to <a className="aside__contact-link" href="mailto:contact@luiscestou.com">contact me</a> for any project that you might have in mind.</p>
+						<p>Feel free to <a className="aside__contact-link" href="mailto:hola@luiscestou.com">contact me</a> for any project that you might have in mind.</p>
 						
 						<div className="aside__social-icons">
 							<a className="linkedin-icon" href="https://www.linkedin.com/in/luis-cestou/" target="_blank" rel="nofollow noopener noreferrer" title="LinkedIn"><LinkedinIcon /></a>
-							<a className="email-icon" href="mailto:contact@luiscestou.com" title="Send Email"><EmailIcon /></a>
+							<a className="email-icon" href="mailto:hola@luiscestou.com" title="Send Email"><EmailIcon /></a>
 						</div>
 						
 						<p className="aside__copyright">© {new Date().getFullYear()} Made with <span className="love-icon">&hearts;</span> by Luis Cestou</p>

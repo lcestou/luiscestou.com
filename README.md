@@ -1,6 +1,6 @@
 # Luis Cestou – Visual & Interaction Designer
 
-Hi! This is the source code for my [portfolio website](https://luiscestou.com), which I rebuilt using React and Gatsby. Feel free to contact me for your next project at [contact@luiscestou.com](mailto:contact@luiscestou.com).
+Hi! This is the source code for my [portfolio website](https://luiscestou.com), which I rebuilt using React and Gatsby. Feel free to contact me for your next project at [hola@luiscestou.com](mailto:hola@luiscestou.com).
 
 ## Tech stack
 

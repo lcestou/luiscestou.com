@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
 			<nav className="header__nav">
 				<AniLink swipe direction="down" to="/" className="header__nav-link">Work</AniLink>
 				<a href="https://bit.ly/luis-cestou-resume" className="header__nav-link" target="_blank" rel="nofollow noopener noreferrer">Resume</a>
-				<a href="mailto:contact@luiscestou.com" className="header__nav-link">Contact</a>
+				<a href="mailto:hola@luiscestou.com" className="header__nav-link">Contact</a>
 			</nav>
 		</div>
 	</header>
