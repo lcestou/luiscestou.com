@@ -6,26 +6,26 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "confetti-js": "0.0.14",
-    "gatsby": "^2.1.11",
-    "gatsby-image": "^2.0.29",
-    "gatsby-plugin-google-analytics": "^2.0.16",
-    "gatsby-plugin-manifest": "^2.0.18",
-    "gatsby-plugin-netlify": "^2.0.11",
-    "gatsby-plugin-offline": "^2.0.24",
-    "gatsby-plugin-react-helmet": "^3.0.6",
-    "gatsby-plugin-react-svg": "^2.0.0-beta1",
-    "gatsby-plugin-sass": "^2.0.10",
-    "gatsby-plugin-sharp": "^2.0.21",
-    "gatsby-plugin-sitemap": "^2.0.6",
-    "gatsby-plugin-transition-link": "^1.5.1",
-    "gatsby-source-filesystem": "^2.0.22",
-    "gatsby-transformer-sharp": "^2.1.14",
-    "gsap": "^2.1.2",
-    "node-sass": "^4.11.0",
+    "gatsby": "^2.13.13",
+    "gatsby-image": "^2.2.4",
+    "gatsby-plugin-google-analytics": "^2.1.1",
+    "gatsby-plugin-manifest": "^2.2.1",
+    "gatsby-plugin-netlify": "^2.1.0",
+    "gatsby-plugin-offline": "^2.2.1",
+    "gatsby-plugin-react-helmet": "^3.1.0",
+    "gatsby-plugin-react-svg": "^2.1.1",
+    "gatsby-plugin-sass": "^2.1.0",
+    "gatsby-plugin-sharp": "^2.2.3",
+    "gatsby-plugin-sitemap": "^2.2.1",
+    "gatsby-plugin-transition-link": "^1.12.4",
+    "gatsby-source-filesystem": "^2.1.3",
+    "gatsby-transformer-sharp": "^2.2.1",
+    "gsap": "^2.1.3",
+    "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
-    "react-helmet": "^5.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
     "typeface-roboto": "0.0.54"
   },
   "keywords": [
@@ -46,5 +46,7 @@
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
 }
