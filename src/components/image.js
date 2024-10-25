@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -19,14 +19,26 @@ const Image = () => (
       query {
         avatar: file(relativePath: { eq: "luis-cestou-avatar.png" }) {
           childImageSharp {
-            fluid(maxWidth: 400) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
+            gatsbyImageData(
+              width: 400
+              placeholder: DOMINANT_COLOR
+              formats: [AUTO, WEBP]
+            )
           }
         }
       }
     `}
-    render={data => <Img fluid={data.avatar.childImageSharp.fluid} alt="Luis Cestou posing for the camera LOL." className="aside__img-wrapper" />}
+    render={data => {
+      const image = getImage(data.avatar)
+      return (
+        <GatsbyImage 
+          image={image} 
+          alt="Luis Cestou posing for the camera LOL." 
+          className="aside__img-wrapper" 
+        />
+      )
+    }}
   />
 )
+
 export default Image
