@@ -2,7 +2,7 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 
 import "../components/pages.scss"
 import Logo from "../images/work/wlm/wlm-logo.svg"
@@ -14,7 +14,7 @@ import Image4 from "../images/work/wlm/wlm-logo-display.png"
 
 //import Link from 'gatsby-plugin-transition-link'
 //import TransitionLink from 'gatsby-plugin-transition-link'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 const WLMPage = () => (
@@ -82,3 +82,10 @@ const WLMPage = () => (
 )
 
 export default WLMPage
+
+export const Head = () => (
+  <SEO 
+    title="WoW Lazy Macros" 
+    keywords={[`gatsby`, `application`, `react`]}
+  />
+)

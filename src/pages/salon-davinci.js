@@ -2,7 +2,7 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 
 import "../components/pages.scss"
 import Logo from "../images/work/davinci/davinci-logo.svg"
@@ -13,13 +13,11 @@ import Image3 from "../images/work/davinci/davinci-web.jpg"
 
 //import Link from 'gatsby-plugin-transition-link'
 //import TransitionLink from 'gatsby-plugin-transition-link'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 const DavinciPage = () => (
   <Layout>
-    <SEO title="Salon DaVinci" />
-    
     <main className="project">
 
       <section className="project__description">
@@ -77,3 +75,10 @@ const DavinciPage = () => (
 )
 
 export default DavinciPage
+
+export const Head = () => (
+  <SEO 
+    title="Salon DaVinci" 
+    keywords={[`gatsby`, `application`, `react`]}
+  />
+)

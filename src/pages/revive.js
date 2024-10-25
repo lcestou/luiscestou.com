@@ -2,10 +2,10 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 
 import "../components/pages.scss"
-import Logo from "../images/work/revive/revive-logo.svg"
+import Logo from '../images/work/revive/revive-logo.svg'
 import Image1 from "../images/work/revive/revive-box-front-angle.jpg"
 import Image2 from "../images/work/revive/revive-box-back.jpg"
 import Image3 from "../images/work/revive/revive-ifu-front.png"
@@ -17,7 +17,7 @@ import Image8 from "../images/work/revive/revive-components.jpg"
 
 //import Link from 'gatsby-plugin-transition-link'
 //import TransitionLink from 'gatsby-plugin-transition-link'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 const RevivePage = () => (
@@ -37,7 +37,9 @@ const RevivePage = () => (
 
       </section>
       
-      <section className="project__logo"><Logo /></section>
+      <section className="project__logo">
+        <Logo />
+      </section>
 
       <article className="project__content">
 

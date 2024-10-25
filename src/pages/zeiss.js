@@ -2,7 +2,7 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 
 import "../components/pages.scss"
 import Logo from "../images/work/zeiss/zeiss-logo.svg"
@@ -13,7 +13,7 @@ import Image3 from "../images/work/zeiss/zeiss-web.jpg"
 
 //import Link from 'gatsby-plugin-transition-link'
 //import TransitionLink from 'gatsby-plugin-transition-link'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 const ZeissPage = () => (

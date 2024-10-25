@@ -2,7 +2,7 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 
 import "../components/pages.scss"
 import Logo from "../images/work/chp/chp-logo.svg"
@@ -17,7 +17,7 @@ import VideoWebM from "../images/work/chp/chp-video.webm"
 
 //import Link from 'gatsby-plugin-transition-link'
 //import TransitionLink from 'gatsby-plugin-transition-link'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 const CHPPage = () => (
@@ -104,3 +104,10 @@ const CHPPage = () => (
 )
 
 export default CHPPage
+
+export const Head = () => (
+  <SEO 
+    title="Clinical Home Practice" 
+    keywords={[`gatsby`, `application`, `react`]}
+  />
+)

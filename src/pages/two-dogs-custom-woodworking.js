@@ -2,7 +2,7 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 
 import "../components/pages.scss"
 import Logo from "../images/work/2dogs/tdcw-logo.svg"
@@ -14,10 +14,10 @@ import Image4 from "../images/work/2dogs/tdcw-bc-front-dark.png"
 
 //import Link from 'gatsby-plugin-transition-link'
 //import TransitionLink from 'gatsby-plugin-transition-link'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
-const SecondPage = () => (
+const TwoDogsPage = () => (
   <Layout>
     <SEO title="Two Dogs Custom Woodworking" />
     
@@ -81,4 +81,11 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default TwoDogsPage
+
+export const Head = () => (
+  <SEO 
+    title="Two Dogs Custom Woodworking" 
+    keywords={[`gatsby`, `application`, `react`]}
+  />
+)

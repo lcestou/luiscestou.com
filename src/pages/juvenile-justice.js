@@ -2,7 +2,7 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 
 import "../components/pages.scss"
 import Logo from "../images/work/juvenile/mcdonough-logo.svg"
@@ -13,7 +13,7 @@ import Image3 from "../images/work/juvenile/jjc-billboard.jpg"
 
 //import Link from 'gatsby-plugin-transition-link'
 //import TransitionLink from 'gatsby-plugin-transition-link'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 const JuvenilePage = () => (
@@ -77,3 +77,10 @@ const JuvenilePage = () => (
 )
 
 export default JuvenilePage
+
+export const Head = () => (
+  <SEO 
+    title="Juvenile Justice" 
+    keywords={[`gatsby`, `application`, `react`]}
+  />
+)

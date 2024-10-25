@@ -2,7 +2,7 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 
 import "../components/pages.scss"
 import Logo from "../images/work/discord/codepen-logo.svg"
@@ -10,10 +10,10 @@ import Logo from "../images/work/discord/codepen-logo.svg"
 
 //import Link from 'gatsby-plugin-transition-link'
 //import TransitionLink from 'gatsby-plugin-transition-link'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
-const SecondPage = () => (
+const DiscordWidgetPage = () => (
   <Layout>
     <SEO title="Discord Status Widget" />
     
@@ -72,4 +72,11 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default DiscordWidgetPage
+
+export const Head = () => (
+  <SEO 
+    title="Discord Status Widget" 
+    keywords={[`gatsby`, `application`, `react`]}
+  />
+)
