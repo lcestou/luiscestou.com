@@ -2,7 +2,7 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 
 import "../components/pages.scss"
 import Logo from "../images/work/top/top-logo.svg"
@@ -12,7 +12,7 @@ import Image2 from "../images/work/top/top-coffee-sleeve.png"
 
 //import Link from 'gatsby-plugin-transition-link'
 //import TransitionLink from 'gatsby-plugin-transition-link'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 const TOPPage = () => (
@@ -74,3 +74,10 @@ const TOPPage = () => (
 )
 
 export default TOPPage
+
+export const Head = () => (
+  <SEO 
+    title="Twenty Øne Piløts" 
+    keywords={[`gatsby`, `application`, `react`]}
+  />
+)

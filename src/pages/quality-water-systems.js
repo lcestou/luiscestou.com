@@ -2,7 +2,7 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 
 import "../components/pages.scss"
 import Logo from "../images/work/qws/qws-logo.svg"
@@ -14,7 +14,7 @@ import Image4 from "../images/work/qws/qws-stationery.jpg"
 
 //import Link from 'gatsby-plugin-transition-link'
 //import TransitionLink from 'gatsby-plugin-transition-link'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 const QWSPage = () => (
@@ -82,3 +82,10 @@ const QWSPage = () => (
 )
 
 export default QWSPage
+
+export const Head = () => (
+  <SEO 
+    title="Quality Water Systems" 
+    keywords={[`gatsby`, `application`, `react`]}
+  />
+)
